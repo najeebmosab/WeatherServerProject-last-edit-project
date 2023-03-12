@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    background: rgb(133,236,255);
+    background: linear-gradient(120deg, #4a90e2, #5dd5ff, #b4ec51) no-repeat center center/cover;
+}

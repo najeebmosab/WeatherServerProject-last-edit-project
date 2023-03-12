@@ -1,0 +1,39 @@
+.addWeatherForm {
+    width: 50%;
+    margin: 20px auto;
+}
+.addWeatherForm div{
+    margin: 10px;
+}
+.addWeatherForm div label{
+    display: block;
+    width: -webkit-fill-available;
+}
+.addWeatherForm div input{
+    width: -webkit-fill-available;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.divSubmit{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.btnSubmit{
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    background-color: #57b159;
+    color: #fff;
+}
+.btnSubmit:hover{
+    background-color: rgb(108, 255, 92)
+
+}

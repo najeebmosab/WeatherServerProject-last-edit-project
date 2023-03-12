@@ -1,0 +1,40 @@
+
+.formSearsh form {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(1,1fr);
+    gap: 10px;
+}
+
+.formSearsh form input {
+    padding: 6px;
+    border-radius: none;
+}
+
+.formSearsh form button {
+    padding: 7px 5px;
+    border: none;
+    background-color: #f34;
+    color: #fff;
+    cursor: pointer;
+}
+
+.formSearsh form button:hover {
+    background-color: #f00;
+}
+
+.formSearsh form div {
+    grid-column: 1/1;
+}
+
+.formSearsh form div select {
+    width: 100%;
+    padding: 7px;
+    text-align: center;
+}
+
+.formSearsh form div select option {
+    text-align: start;
+
+}
+

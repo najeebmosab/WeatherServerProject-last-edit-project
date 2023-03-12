@@ -1,0 +1,27 @@
+.sideBat {
+    width: 25%;
+    margin: 0px auto;
+    text-align: center;
+    position: fixed;
+    height: 100vh;
+    padding: 10px;
+    top: 35px;
+
+    background-color: #fff;
+}
+
+.Close {
+    right: -500px;
+    transition: right 1s ease-in-out;
+}
+
+.Open {
+    right: 0px;
+    transition: right 1s ease-in-out;
+}
+
+@media (max-width:768px) {
+    .sideBat{
+        width: 50%;
+    }
+}

@@ -1,0 +1,76 @@
+.mockApiContainer{
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: auto;
+}
+.addDitaeld{
+    float: right;
+    padding: 10px;
+}
+.addDitaeld a{
+    text-decoration: none;
+    color: #222222;
+    cursor: pointer;
+}
+.addDitaeld a:hover{
+    color: rgb(0, 115, 255);
+}
+
+
+.cardCockApi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    padding: 20px;
+    margin: 50px 0px;
+}
+.cards{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.CRUDStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.CRUDStyle button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.CRUDStyle button.BTNDel{
+    background-color: #CB2027;
+}
+.CRUDStyle button.BTNUp{
+    background-color: #95D03A;
+}
+.dateDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.cardsWeatherDiv{
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .cardCockApi{
+    grid-template-columns: repeat(2,1fr);
+
+    }
+}
+
+@media (max-width:500px) {
+    .cardCockApi{
+    grid-template-columns: repeat(1,1fr);
+
+    }
+}
